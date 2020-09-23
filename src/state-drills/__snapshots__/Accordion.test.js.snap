@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`closes a section when clicked again 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        key="0"
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        key="1"
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        key="2"
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`only opens last section when multiple have been clicked 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        key="0"
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        key="1"
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+      <p>
+        Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+      </p>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        key="2"
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`opens first section when clicked 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        key="0"
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        key="1"
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        key="2"
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`opens second section when clicked 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        key="0"
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        key="1"
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+      <p>
+        Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+      </p>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        key="2"
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`renders first with all sections closed 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        key="0"
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        key="1"
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        key="2"
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
