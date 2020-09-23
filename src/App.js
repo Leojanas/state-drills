@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import Split from './composition/Split';
 import './App.css';
+import Tooltip from './composition/Tooltip';
+import Messages from './Messages';
+import TheDate from './state/TheDate';
+import Counter from './state/Counter/Counter';
+
+const firstTooltip = (
+  <Tooltip message='tooltip message' color='hotpink'>
+   ipsum
+  </Tooltip>
+)
+const secondTooltip = (
+  <Tooltip message='another tooltip message'color='#126BCC'>
+    officiis
+  </Tooltip>
+)
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <main className='App'>
+      <TheDate />
+      <Counter count={123} />
+    </main>
+  )
 }
 
 export default App;
